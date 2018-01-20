@@ -1,6 +1,7 @@
 from flask import Blueprint
+
 routes = Blueprint('routes', __name__)
 
 from .index import *
 from .users import *
-from .test import *
+from .nine_bang import *

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename = 'js/hello.js') }}"></script>
+</head>
+<body>
+
+<h1>Hello {{ name }}!</h1>
+<input type="button" onclick="sayHello('{{ name }}')" value="Say Hello"/>
+
+</body>
+</html>
